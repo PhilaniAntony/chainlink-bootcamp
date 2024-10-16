@@ -9,7 +9,7 @@ contract Register {
     function getinfo() public view returns(string memory) {
         return info;
     }
-
+    
     function setInfo(string memory _info) public {
         info = _info;
     }
